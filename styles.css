@@ -1,0 +1,119 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-image: url(https://www.os-templates.com/website-templates/template-demos/free-website-templates/kiraric/images/live-demo/background-01.jpg);
+  height: calc(90% - 95.78px);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.overley {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.absolute {
+  position: absolute;
+  top: 0;
+}
+.p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 4em;
+  padding-top: 2vw;
+  padding-left: 20.7vw;
+}
+.p1 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.4em;
+  padding-left: 20.7vw;
+}
+.p-2 {
+  display: inline-block;
+  padding: 8px 18px 10px;
+  margin-left: 21vw;
+  margin-top: 4vh;
+  margin-bottom: 20vh;
+  text-transform: uppercase;
+  background-color: #59a209;
+  border: 1px solid;
+  border-color: #59a209;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.p-2:hover {
+  background-color: transparent;
+  border-color: #fff;
+}
+#lg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 4vw;
+  padding-top: 4vw;
+}
+#h-100 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 4vw;
+}
+#fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4vw;
+  padding-top: 4vw;
+}
+#lg-h {
+  width: 790px;
+  padding: 0;
+}
+#lg-text {
+  padding: 0;
+}
+#col-img {
+  background-image: url(./img/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+#row {
+  width: 50%;
+}
+#r-text {
+  width: 450px;
+}
+@media (max-width: 900px) {
+  #lg {
+    display: block;
+  }
+  #lg-h {
+    width: 358px;
+    padding-left: 15vw;
+  }
+  #lg-text {
+    padding-left: 10vw;
+  }
+  #col-img {
+    display: none;
+  }
+  #row {
+    width: 90%;
+  }
+  #r-text {
+    width: 300px;
+  }
+}
